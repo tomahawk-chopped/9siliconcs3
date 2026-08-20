@@ -1,4 +1,4 @@
-MANGAOANG, KARL   IX - SILICON
+MANGAOANG, KARL   IX - SILICON   ANNEX A
 
 PART I & II
 The main problem: Catastrophic crowd and slow service during lunch breaks due to  inefficiencies in ordering, payment and inventory management.
