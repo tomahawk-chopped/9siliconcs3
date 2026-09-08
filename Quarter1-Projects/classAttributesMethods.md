@@ -1,7 +1,8 @@
+# MANGAOANG, KARL - IX-SILICON
 # Class Attributes and Methods
 
 ## Previous Design
-Link to activity: (classObjectUML.md)
+[classObjectUML.md](classObjectUML.md)
 
 ## Design Revision
 No changes we're made on the UML except the file name was UMD and changed to UML.
@@ -14,65 +15,16 @@ No changes we're made on the UML except the file name was UMD and changed to UML
 |  quantity  |  int  |  Private  |  Sensitive stock count that should only be modified through validated methods to prevent negative values.  |
 
 ## Updated UML Class Diagram
-+-------------------------------------------------+
-|                    FoodItem                     |
-+-------------------------------------------------+
-| - itemID : String                               |
-| - name : String                                 |
-| - price : Float                                 |
-| - stockQuantity : Integer                       |
-+-------------------------------------------------+
-| + updateStock(quantity : Integer)               |
-| + getStockQuantity() : Integer                  |
-| + getPrice() : Float                            |
-+-------------------------------------------------+
+![Class Diagram](Q1-Projects-Images/classDiagramSG5.png)
 
-+-------------------------------------------------+
-|                      Order                      |
-+-------------------------------------------------+
-| - orderID : String                              |
-| - studentID : String                            |
-| - itemsList : List<FoodItem>                    |
-| - totalAmount : Float                           |
-| - status : String                               |
-+-------------------------------------------------+
-| + addItem(item : FoodItem)                      |
-| + calculateTotal() : Float                      |
-| + updateStatus(newStatus : String)              |
-+-------------------------------------------------+
-
-+-------------------------------------------------+
-|                  QueueManager                   |
-+-------------------------------------------------+
-| - activeOrders : List<Order>                    |
-| - estimatedWaitTime : Integer                   |
-+-------------------------------------------------+
-| + addOrderToQueue(order : Order)                |
-| + processNextOrder() : Order                    |
-| + getWaitTime() : Integer                       |
-+-------------------------------------------------+
+## Python Implementation
+[View Python Source](classImplementation.py)
 
 ## Test Run
-Link to image: (classTestRun.png)
+![Test Run](Q1-Projects-Images/classTestRun.png)
 
 ## Object Diagram
-Equipment
-          +-----------------------+
-          |    class blueprint    |
-          +-----------------------+
-                      |
-           +----------+----------+
-           |                     |
-           v                     v
-  item1 : Equipment     item2 : Equipment
-+-------------------+ +-------------------+
-| item_name =       | | item_name =       |
-|   "Baseball Bat"  | |   "Soccer Ball"   |
-| unit_price = 45.0 | | unit_price = 25.0 |
-| is_available =    | | is_available =    |
-|   False           | |   True            |
-| __quantity = 0    | | __quantity = 15   |
-+-------------------+ +-------------------+
+![Object Diagram](Q1-Projects-Images/objectDiagram.png)
 
 ## Analysis
 
