@@ -1,9 +1,8 @@
 # I am MANGAOANG, KARL TRISTAN SADANG
 # I am from IX-SILICON
 # Email: ktsmangaoang@brc.pshs.edu.ph
+# This is MyCS3Portfolio
 
 # Status of work progress:
-ctskills: https://github.com/tomahawk-chopped/9siliconcs3/blob/1st-Quarter/ctskills-Silicon-Mnagaoang.md
-ila_oop: https://github.com/tomahawk-chopped/9siliconcs3/blob/1st-Quarter/ila_oop-Silicon-Mangaoang.md
-zodiac: https://github.com/tomahawk-chopped/9siliconcs3/blob/1st-Quarter/zodiac-Silicon-Mangaoang.py
-classObjectUMD: https://github.com/tomahawk-chopped/9siliconcs3/blob/1st-Quarter/classObjectUMD.md
+# Q1: OOP SERIES --> https://github.com/tomahawk-chopped/9siliconcs3/tree/1st-Quarter/Quarter1-Projects
+# Q1: FIRST SERIES --> https://github.com/tomahawk-chopped/9siliconcs3/tree/1st-Quarter/Q1-Series
