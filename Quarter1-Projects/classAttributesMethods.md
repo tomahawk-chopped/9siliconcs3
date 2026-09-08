@@ -24,7 +24,7 @@ No changes we're made on the UML except the file name was UMD and changed to UML
 ![Test Run](Q1-Projects-Images/classTestRun.png)
 
 ## Object Diagram
-![Object Diagram](Q1-Projects-Images/objectDiagram.png)
+![Object Diagram](Q1-Projects-Images/ObjectDiagram.png)
 
 ## Analysis
 
