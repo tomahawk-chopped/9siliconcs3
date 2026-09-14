@@ -8,11 +8,13 @@
 No changes we're made on the UML except the file name was UMD and changed to UML.
 
 ## Visibility Decisions
+
 Attribute - Data Type - Visibility - Why Public/Private?
-item_name; string; Public; Standard information that can be freely viewed and identified outside the class.  |
-unit_price; float; Public; Public pricing information that can be directly read for quotes or bills.  |
-is_available; boolean; Public; General status flag showing whether the item is in stock or checked out.  |
-quantity; int; Private; Sensitive stock count that should only be modified through validated methods to prevent negative values.  |
+
+item_name; string; Public; Standard information that can be freely viewed and identified outside the class.
+unit_price; float; Public; Public pricing information that can be directly read for quotes or bills.
+is_available; boolean; Public; General status flag showing whether the item is in stock or checked out.
+quantity; int; Private; Sensitive stock count that should only be modified through validated methods to prevent negative values.
 
 ## Updated UML Class Diagram
 ![Class Diagram](Q1-Projects-Images/classDiagramSG5.png)
