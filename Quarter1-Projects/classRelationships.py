@@ -45,7 +45,7 @@ if __name__ == "__main__":
     bat = Equipment("EQ02", "Baseball Bat", "Good")
 
     # Create Borrower Instance
-    player = Borrower("B101", "Alex Morgan")
+    player = Borrower("B101", "Lamar Miller III")
 
     # Execute Checkout
     player.check_out(ball)
