@@ -2,8 +2,9 @@
 # I am from IX-SILICON
 # Email: ktsmangaoang@brc.pshs.edu.ph
 # This is MyCS3Portfolio
-# Status: Up to date :-)
+# Status: Up to date :-) (18th Oct., 2026 - 13:02)
 
 # Status of work progress:
 # Q1: OOP SERIES --> https://github.com/tomahawk-chopped/9siliconcs3/tree/1st-Quarter/Quarter1-Projects
 # Q1: FIRST SERIES --> https://github.com/tomahawk-chopped/9siliconcs3/tree/1st-Quarter/Q1-Series
+# 2nd Quarter branch and projects -->  https://github.com/tomahawk-chopped/9siliconcs3/tree/2nd-Quarter
