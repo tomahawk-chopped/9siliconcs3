@@ -26,3 +26,25 @@ class BankAccount:
             print("The balance must be not be a negative number.")
         else:
             self._balance = value
+
+
+# --- Demonstration matching the Sample Output ---
+
+# Create an object of class BankAccount
+a1 = BankAccount(12345, 1000)
+
+# Display initial account details
+print("Output:")
+print()
+print("Account 1")
+print(f"Account Number: {a1.account_number}")
+print(f"Balance: {a1.balance:.2f}")
+
+# Attempt to update balance to a negative number
+print()
+print("Update balance to -100")
+a1.balance = -100
+
+# Display account details to verify balance was not changed
+print(f"Account Number: {a1.account_number}")
+print(f"Balance: {a1.balance:.2f}")
